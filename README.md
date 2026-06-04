@@ -10,9 +10,9 @@
 
 ### User
 
-* Username: **Haze**
-* Email: **[Haze@gmail.com](mailto:Haze@gmail.com)**
-* Password: **Haze123**
+* Username: **haze**
+* Email: **[haze@gmail.com](mailto:Haze@gmail.com)**
+* Password: **haze123**
 
 ---
 
