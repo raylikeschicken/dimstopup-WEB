@@ -1,0 +1,79 @@
+[{
+  "_id": {
+    "$oid": "69f4ce48a3a01b681f0211e0"
+  },
+  "email": "rayhan@gmail.com",
+  "password": "$2a$10$/NNpgubs9aa2ZSqBl5uhMujAyQXXFwQHRS/VFUt3HgBXtQnHPAFQ6",
+  "fullName": "rayhan",
+  "phoneNumber": "123123123",
+  "role": "user",
+  "balance": 0,
+  "gameAccounts": [],
+  "createdAt": {
+    "$date": "2026-05-01T16:01:12.415Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-01T16:01:12.415Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f4cf0b3601332f492002b6"
+  },
+  "email": "admin@example.com",
+  "password": "$2a$10$Yq02wyTUX4IyjXKrIIy2cO7SjFmcEL60H..USL2AnKT.tYUz6kWjq",
+  "nickname": "admin",
+  "fullName": "admin",
+  "phoneNumber": "123123123123",
+  "role": "admin",
+  "balance": 0,
+  "gameAccounts": [],
+  "createdAt": {
+    "$date": "2026-05-01T16:04:27.065Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-01T16:04:27.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f4cf734a1f73ee51d1a671"
+  },
+  "email": "nasigoreng@gmail.com",
+  "password": "$2a$10$vidtP/39/2hpbLyrWxonu.o6eZAUiMSucvDiH.Rs/Ip.nEoSltwf.",
+  "nickname": "nasigoreng",
+  "fullName": "nasigoreng",
+  "phoneNumber": "12312123",
+  "role": "user",
+  "balance": 0,
+  "gameAccounts": [],
+  "createdAt": {
+    "$date": "2026-05-01T16:06:11.286Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-01T16:06:11.286Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c6788d64a7c429b17e26f"
+  },
+  "email": "ayamgoreng123@gmail.com",
+  "password": "$2a$10$S6W7pf3zQovdopacq4Tiyucd1Kam0cyR0uenvHcUUueZDnrWqrRu2",
+  "nickname": "ayamgoreng",
+  "fullName": "ayamgoreng",
+  "phoneNumber": "087888395568",
+  "role": "user",
+  "balance": 0,
+  "gameAccounts": [],
+  "createdAt": {
+    "$date": "2026-05-31T16:53:28.243Z"
+  },
+  "updatedAt": {
+    "$date": "2026-05-31T16:53:28.243Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,128 @@
+[{
+  "_id": {
+    "$oid": "69f4cfbc4a1f73ee51d1a675"
+  },
+  "userId": {
+    "$oid": "69f4cf734a1f73ee51d1a671"
+  },
+  "productId": "mlbb-diamond-5",
+  "productName": "285 Diamond",
+  "nominal": 285,
+  "price": 55000,
+  "discount": 4400,
+  "finalPrice": 50600,
+  "game": "mlbb",
+  "gameUsername": "adsasdasd",
+  "gameUserId": "123123 (9296)",
+  "paymentMethod": "dana",
+  "paymentStatus": "confirmed",
+  "orderStatus": "completed",
+  "receiptNumber": "RCPT-20260501-4YRQLL",
+  "notes": "w",
+  "paidAt": {
+    "$date": "2026-05-01T16:07:22.579Z"
+  },
+  "completedAt": {
+    "$date": "2026-05-01T16:07:24.808Z"
+  },
+  "createdAt": {
+    "$date": "2026-05-01T16:07:24.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "69f4d08b5b01b4dca96cc4e6"
+  },
+  "userId": {
+    "$oid": "69f4cf734a1f73ee51d1a671"
+  },
+  "productId": "mlbb-diamond-2",
+  "productName": "38 Diamond",
+  "nominal": 38,
+  "price": 8500,
+  "discount": 0,
+  "finalPrice": 8500,
+  "game": "mlbb",
+  "gameUsername": "asdsasdas",
+  "gameUserId": "123123 (123123)",
+  "paymentMethod": "dana",
+  "paymentStatus": "confirmed",
+  "orderStatus": "completed",
+  "receiptNumber": "RCPT-20260501-6IJJUN",
+  "notes": "ss",
+  "paidAt": {
+    "$date": "2026-05-01T16:10:49.119Z"
+  },
+  "completedAt": {
+    "$date": "2026-05-01T16:10:51.331Z"
+  },
+  "createdAt": {
+    "$date": "2026-05-01T16:10:51.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a1c6799d64a7c429b17e272"
+  },
+  "userId": {
+    "$oid": "6a1c6788d64a7c429b17e26f"
+  },
+  "productId": "mlbb-diamond-5",
+  "productName": "285 Diamond",
+  "nominal": 285,
+  "price": 55000,
+  "discount": 4400,
+  "finalPrice": 50600,
+  "game": "mlbb",
+  "gameUsername": "asdasd",
+  "gameUserId": "asda (213123)",
+  "paymentMethod": "dana",
+  "paymentStatus": "confirmed",
+  "orderStatus": "completed",
+  "receiptNumber": "RCPT-20260531-D8VUL0",
+  "notes": "dsasdasd",
+  "paidAt": {
+    "$date": "2026-05-31T16:53:42.841Z"
+  },
+  "completedAt": {
+    "$date": "2026-05-31T16:53:45.050Z"
+  },
+  "createdAt": {
+    "$date": "2026-05-31T16:53:45.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6a214faccf87fc509e1f1e05"
+  },
+  "userId": {
+    "$oid": "6a214f9fcf87fc509e1f1e02"
+  },
+  "productId": "mlbb-bp-1",
+  "productName": "Premium Pass",
+  "nominal": 1,
+  "price": 7000,
+  "discount": 0,
+  "finalPrice": 7000,
+  "game": "mlbb",
+  "gameUsername": "asda",
+  "gameUserId": "sd13213 (123123)",
+  "paymentMethod": "dana",
+  "paymentStatus": "confirmed",
+  "orderStatus": "completed",
+  "receiptNumber": "RCPT-20260604-VHMWMD",
+  "notes": "asdad",
+  "paidAt": {
+    "$date": "2026-06-04T10:12:58.178Z"
+  },
+  "completedAt": {
+    "$date": "2026-06-04T10:13:00.389Z"
+  },
+  "createdAt": {
+    "$date": "2026-06-04T10:13:00.390Z"
+  },
+  "__v": 0
+}]
