@@ -41,7 +41,6 @@
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:5000
-NEXT_PUBLIC_WHATSAPP_NUMBER=6281234567890
 ```
 
 ## Backend (Folder `Backend`)
@@ -53,7 +52,6 @@ NEXT_PUBLIC_WHATSAPP_NUMBER=6281234567890
 ```env
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/webtopup
-JWT_SECRET=your_jwt_secret_here
 ```
 
 **Catatan:** Nilai `localhost` dapat disesuaikan dengan konfigurasi MongoDB pada perangkat yang digunakan.
