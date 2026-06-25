@@ -57,6 +57,24 @@ Backend API untuk aplikasi top up game, dibangun dengan Node.js, Express, dan Mo
 - `GET /api/orders/admin/all` - Get all orders (admin)
 - `PUT /api/orders/:id/status` - Update order status (admin)
 
+## Deploy ke Railway + MongoDB Atlas
+
+1. Buat cluster MongoDB Atlas gratis.
+2. Buat database `webtopup` dan gunakan user/password yang aman.
+3. Salin connection string, lalu pilih `Database Access` dan `Network Access` untuk mengizinkan akses dari server.
+4. Di Railway, buat project baru dan hubungkan ke repo GitHub kamu.
+   - Jika repo monorepo, pilih `Backend` sebagai root directory.
+5. Atur environment variables di Railway:
+   - `MONGODB_URI` = connection string Atlas
+   - `JWT_SECRET` = secret random
+   - `CORS_ORIGIN` = `https://your-frontend.vercel.app,http://localhost:3000`
+6. Deploy Railway dan dapatkan URL backend.
+
+### Koneksi mobile app
+
+- Mobile app sebaiknya memanggil backend lewat API URL Railway.
+- Jangan sambungkan mobile langsung ke database.
+
 ## Technologies Used
 
 - Node.js
