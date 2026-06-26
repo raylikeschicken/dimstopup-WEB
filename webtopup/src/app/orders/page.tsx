@@ -54,7 +54,7 @@ export default function OrdersPage() {
               <span className={styles.eyebrow}>Pembeli</span>
               <h1>Riwayat Pembelian</h1>
               <p className={styles.subtitle}>
-                Semua fake payment yang sukses akan punya status, receipt, dan catatan transaksi di sini.
+                Semua pembayaran yang sukses akan punya status, receipt, dan catatan transaksi di sini.
               </p>
             </div>
             <button type="button" className={styles.refreshButton} onClick={loadOrders}>
@@ -67,7 +67,7 @@ export default function OrdersPage() {
           {loading ? (
             <div className={styles.empty}>Memuat riwayat...</div>
           ) : orders.length === 0 ? (
-            <div className={styles.empty}>Belum ada transaksi. Pilih produk dan lakukan fake payment dulu.</div>
+            <div className={styles.empty}>Belum ada transaksi. Pilih produk dan lakukan pembayaran dulu.</div>
           ) : (
             <div className={styles.grid}>
               {orders.map((order) => (

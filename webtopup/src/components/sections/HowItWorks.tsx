@@ -18,7 +18,7 @@ const STEPS = [
   {
     step: '03',
     icon: '03',
-    title: 'Fake Payment Sukses',
+    title: 'Pembayaran Simulasi Sukses',
     description: 'Sistem menampilkan loading, status sukses, receipt, dan menyimpan riwayat pembelian.',
   },
 ];

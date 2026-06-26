@@ -90,7 +90,7 @@ export default function TopUpSection() {
     };
 
     setIsSubmitting(true);
-    setStatus('Menghubungkan ke fake payment gateway...');
+    setStatus('Menghubungkan ke gateway pembayaran...');
 
     try {
       await new Promise((resolve) => setTimeout(resolve, 1500));
@@ -140,7 +140,7 @@ export default function TopUpSection() {
       saveLocalPurchase(fakeOrder);
       setReceipt(fakeOrder);
       const message = error instanceof Error ? error.message : 'Server tidak merespons.';
-      setStatus(`Pembayaran fake sukses, tetapi transaksi hanya tersimpan lokal. ${message}`);
+      setStatus(`Pembayaran berhasil, tetapi transaksi hanya tersimpan lokal. ${message}`);
     } finally {
       setIsSubmitting(false);
     }
@@ -153,7 +153,7 @@ export default function TopUpSection() {
           <span className="section-label">Produk Kami</span>
           <h2 className="section-title">Top Up Game Favorit Kamu</h2>
           <p className="section-subtitle">
-            Pilih produk, isi ID game, lakukan fake payment, lalu receipt dan riwayat pembelian langsung tersedia.
+            Pilih produk, isi ID game, lakukan pembayaran, lalu receipt dan riwayat pembelian langsung tersedia.
           </p>
           <div className="glow-separator" />
         </div>
@@ -236,7 +236,7 @@ export default function TopUpSection() {
             </div>
 
             <div className={styles.summary}>
-              <span>{selectedGameInfo?.label} - Fake payment</span>
+              <span>{selectedGameInfo?.label} - Pembayaran</span>
               <strong>{formatRupiah(getFinalPrice(selectedProduct))}</strong>
             </div>
 
